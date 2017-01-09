@@ -1,6 +1,6 @@
 # CODEBOOK
 
-This dataset is an output of "run_analysis.R". It is derived from the original dataset which can be downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. Please refer to the orginal dataset for more detail. 
+This is a codebook for dataset "tidy_dataset.txt" produced from "run_analysis.R". The original dataset can be downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. Please refer to the orginal dataset for more detail. 
 
 Summary, the original dataset contains signals captured from smartphone (Samsung Galaxy S II) and these signals can be used to classify human activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). There are 33 signals from the original dataset included in this dataset.
 
