@@ -1,3 +1,19 @@
+## set working directory
+workingDirectory <- "C:/Users/jack/Desktop/DataScience Specialization/3 Getting and Cleaning Data/week4"
+
+if(!file.exists(workingDirectory)) {
+        dir.create(workingDirectory)
+}
+
+setwd(workingDirectory)
+## end set working directory
+
+## download and unzip data
+url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(url,destfile = "Dataset.zip",mode="wb")
+unzip("Dataset.zip")
+## end download and unzip data
+
 ## load data 
 X_train <- read.table("UCI HAR Dataset\\train\\X_train.txt")
 X_test <- read.table("UCI HAR Dataset\\test\\X_test.txt")
