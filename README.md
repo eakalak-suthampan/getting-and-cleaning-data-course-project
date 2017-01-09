@@ -1,4 +1,4 @@
-# getting-and-cleaning-data-course-project
+# Getting-And-Cleaning-Data-Course-Pgroject
 
 This project will do about "getting and cleaning data" using the original dataset downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. The original dataset contains signals captured from smartphone (Samsung Galaxy S II) and these signals can be used to classify human activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). 
 
