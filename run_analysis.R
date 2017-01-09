@@ -66,11 +66,5 @@ library(dplyr)
 finalResults <- extractedMeanAndStd %>% group_by(subject,activity) %>% summarise_each(funs(mean))
 ## end use dplyr to grouping subject and activity then find the mean of the columns
 
-## filter desired data
-finalResults <- as.data.frame(finalResults)
-meanColumns <- names(extractedMeanAndStd[,grep("mean\\(\\)",names(extractedMeanAndStd))])
-finalResults <- finalResults[,c("subject","activity",meanColumns)]
-## end filter desired data
-
 # write final result to a file
 write.table(finalResults,file = "tidy_dataset.txt",row.names = FALSE)
